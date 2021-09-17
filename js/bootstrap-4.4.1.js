@@ -156,9 +156,9 @@
     getSelectorFromElement: function getSelectorFromElement(element) {
       var selector = element.getAttribute('data-target');
 
-      if (!selector || selector === '#') {
+      if (!selector || selector === "#") {
         var hrefAttr = element.getAttribute('href');
-        selector = hrefAttr && hrefAttr !== '#' ? hrefAttr.trim() : '';
+        selector = hrefAttr && hrefAttr !== "#" ? hrefAttr.trim() : '';
       }
 
       try {

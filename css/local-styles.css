@@ -10,8 +10,8 @@ body {
 }
 
 #prototype-here {
-	background-color: hsla(240, 100%, 50%, .1);
-	margin: 16px 0 32px 0;
+	background-color: hsla(240, 100%, 90%, .4);
+	padding: 32px;
 	min-height: 25vh;
 }
 
@@ -19,12 +19,13 @@ body {
 .watermark{
 	font-size: 1em;
 	font-weight: bold;
-	line-height: 64px;
-	color: hsla(240, 100%, 50%, .25);
+	line-height: 32px;
+	margin-bottom: 32px;
+	color: hsla(240, 100%, 50%, .4);
 	position: relative;
 	text-transform:uppercase;
-	margin: 32px;
-	height: 64px;
+	height: 32px;
+	z-index: -1;
 	
 }
 

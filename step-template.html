@@ -3,46 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <title>Accessible Prototyping -</title>
+<!-- JQuery CDN --> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+
 <!-- Bootstrap -->
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+
+<!-- Local Styles -->
 <link href="css/local-styles.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<div id="instructions" class="jumbotron" aria-hidden="true">
-  <h1 class="display-4">Step ##</h1>
-  <p class="lead">Describe, educate and motivate.</p>
-  <hr class="my-4" />
-  <h4>Do this:</h4>
-  <p>Simple instruction for this step.</p>
-  <h4>Why:</h4>
-  <ul>
-    <li>Explain why this step is needed</li>
-    <li>The set the expectation about the next step.</li>
-  </ul>
-  <hr class="my-4" />
-  <p> <a class="btn btn-default btn-lg" href="#" role="button" aria-hidden="true">Back</a> <a class="btn btn-primary btn-lg" href="#" role="button" aria-hidden="true">Next Step</a> </p>
+<div id="instructions" class="jumbotron"> 
+  <!-- Instructions --> 
+  <!--#include file="includes/step01.shtml" --> 
 </div>
+
+<!-- Prototype -->
 <div id="prototype-here" style="min-height: 300px">
   <div class="watermark" aria-hidden="true">prototype region</div>
-  <p>&nbsp;</p>
   
-  <!-- Enter your prototype text below --> 
+  <!-- Enter your prototype text below -->
   
-  <!--#include file="kitchen-sink.shtml" --> 
+  <p>Hello Accessible World!</p>
   
   <!-- Enter your prototype text above --> 
 </div>
-<div id="ui-reference" aria-hidden="true">
-  <h1>UI Reference (Decorative)</h1>
+
+<!-- Reference -->
+
+<div id="reference" aria-hidden="true">
+  <hr />
+  <h3>UI Reference (Decorative)</h3>
   <img src="images/ui-placeholder.png" width="100%" alt="decorative"/> </div>
+
+<!--#include file="includes/footer-scripts.shtml" --><!-- Scripts to hide instructions --> 
 <script>
-$(function() {
-	$('#instructions').hide();
-	$('#ui-reference').hide();
-	$('.watermark').hide();
-});
+	$(function() {
+		// $('#instructions').hide();
+		// $('#reference').hide();
+		// $('.watermark').hide();
+	});
 </script>
 </body>
 </html>

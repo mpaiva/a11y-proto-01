@@ -1,0 +1,13 @@
+
+<h1 class="display-4">Step 01</h1>
+<p class="lead">How do you know your interface design is accessible?</p>
+<hr class="my-4" />
+<h4>Do this:</h4>
+<p>Add an image of your UI layout you would like to prototype. See an example below.</p>
+<h4>Why:</h4>
+<ul>
+  <li>We will use this image help describe and assess how assistive technologies interact with it.&nbsp;</li>
+  <li>Next, we will begin describing your interface.</li>
+</ul>
+<hr class="my-4" />
+<p> <a class="btn btn-default btn-lg" href="#" role="button">Back</a> <a class="btn btn-primary btn-lg" href="#" role="button">Next Step</a> </p>

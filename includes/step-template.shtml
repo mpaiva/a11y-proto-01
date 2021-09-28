@@ -1,0 +1,14 @@
+<div id="instructions" class="jumbotron" aria-hidden="true">
+  <h1 class="display-4">Step ##</h1>
+  <p class="lead">Describe, educate and motivate.</p>
+  <hr class="my-4" />
+  <h4>Do this:</h4>
+  <p>Simple instruction for this step.</p>
+  <h4>Why:</h4>
+  <ul>
+    <li>Explain why this step is needed</li>
+    <li>The set the expectation about the next step.</li>
+  </ul>
+  <hr class="my-4" />
+  <p> <a class="btn btn-default btn-lg" href="#" role="button" aria-hidden="true">Back</a> <a class="btn btn-primary btn-lg" href="#" role="button" aria-hidden="true">Next Step</a> </p>
+</div>
